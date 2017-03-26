@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>jQuery in TypeScript Demo</title>
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="TypeScripts/app.js"></script>
+</head>
+<body>
+    <div id="infoSection">
+        <h3>Information sheet</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label>FirstName</label></td>
+                    <td><input id="firstname" value="Nanjing" /></td>
+                </tr>
+                <tr>
+                    <td><label>MiddleName</label></td>
+                    <td><input id="middlename" value="Jiangsu" /></td>
+                </tr>
+                <tr>
+                    <td><label>Lastname</label></td>
+                    <td><input id="lastname" value="China" /></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" style="text-align: center">
+                        <button onclick="return onSubmit()">Submit</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div id="displaySection" style="display: none"></div>
+</body>
+</html>
